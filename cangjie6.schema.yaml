@@ -80,8 +80,7 @@ speller:
   delimiter: " '"
 
 translator:
-  dictionary: &dict
-    cangjie6
+  dictionary: cangjie6
 # 若不需鍵詞，請刪去上條中之「.extended」
 # 若需簡體詞，请將上條中之「.extended」改爲「.extsimp」
   enable_user_dict: true
@@ -99,8 +98,7 @@ translator:
   initial_quality: 0.75	# 調整該編譯器出字優先度
 
 cangjie62:
-  dictionary: &dict62
-    cangjie62
+  dictionary: cangjie62
 # 若不需鍵詞，請刪去上條中之「.extended」
 # 若需簡體詞，请將上條中之「.extended」改爲「.extsimp」
   enable_user_dict: true
